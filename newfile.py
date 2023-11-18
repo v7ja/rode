@@ -22,8 +22,8 @@ else:
 	print("Ok .")
 info = open("info.txt",'r').read();token = info.split('\n')[0];own_id = info.split('\n')[1]
 bot = telebot.TeleBot(token)
-SaiF = types.InlineKeyboardButton(text = "- Me ☬ .", url = 'https://t.me/o_c_t')
-channel = types.InlineKeyboardButton(text = "- 𝖬𝖾  .", url = 'https://t.me/rzrzr')
+SaiF = types.InlineKeyboardButton(text = "- aBooD ☬ .", url = 'https://t.me/kx_kkk')
+channel = types.InlineKeyboardButton(text = "- Ch  .", url = 'https://t.me/ToGoLang')
 @bot.message_handler(commands=['start'])
 def start(message):
     global id, name
@@ -66,9 +66,9 @@ def start(message):
     mar.add(I,J)
     mar.add(K)
     mar.add(chek)
-    ph = "https://e.top4top.io/m_27028bjis1.mp4"
+    ph = "https://telegra.ph/file/cfa8d23ac6a45eb51d8dd.mp4"
     if str(id) == own_id:
-    	bot.send_video(message.chat.id,ph,caption=f"""*- اهلا بك عزيزي , {message.chat.first_name} .*""",parse_mode="markdown",reply_markup=mar)
+    	bot.send_video(message.chat.id,ph,caption=f"""*- Hi In Bot By : @kx_kkk 🇮🇶 , {message.chat.first_name} .*""",parse_mode="markdown",reply_markup=mar)
 @bot.message_handler(func=lambda m:True)
 def text(message):
  	acc = message.text
@@ -81,7 +81,7 @@ def text(message):
  			except:
  				bot.send_message(message.chat.id, text="- There is no user .")
  		if acc == "• 𝖠𝖽𝖽 𝖴𝗌𝖤𝗋 •":
- 			bot.send_message(message.chat.id, text="- Send /user with user like this \n /user @rzrzr ! @O_C_T' ")
+ 			bot.send_message(message.chat.id, text="- Send /user with user like this \n /user @ToGoLang ! @kx_kkk' ")
  		if acc == "• 𝖠𝖽𝖽 𝖲𝖫𝖾𝖾𝖯 •":
  			bot.send_message(message.chat.id, text="- Send /sleep with sleep like this \n /sleep 0 ")
  		if "/user" in acc and "@" in acc:
@@ -162,7 +162,7 @@ def text(message):
  			try:
  				document = open('account.txt', 'rb')
  				m = len(open("account.txt").readlines())
- 				bot.send_document(message.chat.id,document,caption=f"- The number of your accounts : {m}\nBy : @rzrzr ! @O_C_T'")
+ 				bot.send_document(message.chat.id,document,caption=f"- The number of your accounts : {m}\nBy : @ToGoLang ! @kx_kkk'")
  			except:
  				bot.send_message(message.chat.id, text="- There are no accounts .")
 bot.polling(none_stop=True)
