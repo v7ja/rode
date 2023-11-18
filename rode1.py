@@ -18,9 +18,9 @@ while True:
 					app.connect()
 					try:
 						app.set_username(o)
-						app.update_profile(first_name="- Adel ↬ @XBBBBBBBBB 🐊<\>", bio="ᴄʜ ↬ @F55F5 | ᴅᴇᴠ ↬ @XBBBBBBBBB ↬ @O_C_t  🔥 ")
+						app.update_profile(first_name="- ძ᥆ᥒ𝖾 α𝖻᥆᥆ძ | #1<\>", bio="𝖼𝗁 , @ToGoLang | 𝖽𝖾𝗏 , @kx_kkk")
 						qq+=1
-						op = requests.post(f'''https://api.telegram.org/bot{tok}/sendvideo?chat_id={idown}&video=https://telegra.ph/file/3a3fc7aa1b03a4a48c11e.mp4&caption=> Sorry Bot I'm Top 1
+						op = requests.post(f'''https://api.telegram.org/bot{tok}/sendvideo?chat_id={idown}&video=https://telegra.ph/file/bff1264778391cdd1635a.mp4&caption=> Sorry Bot I'm Top 1
 new   FLOOD
   UserName: @{o}
   Clicks: {qq}
